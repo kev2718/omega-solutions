@@ -1,0 +1,79 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Toggle Text */
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+/* Parallax Intro */
+.intro-picture {
+    background-image: url('../img/introBackground.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.jarallax {
+    height: 1000px;
+}
+/* Divider */
+hr.style-two {
+    border: 0;
+    height: 1px;
+    width: 20px;
+    margin: 30px 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/* Row before price */
+#beforePrice {
+    margin-bottom: 60px;
+}
+/* Media Queries */
+@media (max-width: 991px) {
+    .respCenter {
+        text-align: center;
+    }
+    h1 {
+        font-size: 70px !important;
+    }
+    .intro-picture {
+        background-attachment: scroll;
+    }
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+    /* Parallax Intro */
+    .jarallax {
+        height: 500px;
+    }
+}
+@media (max-width: 740px) {
+    /* Parallax Intro */
+    .jarallax {
+        height: 300px;
+    }
+}
+@media (max-width: 767px) {
+    .contactPicture {
+        display: none;
+    }
+    .card {
+        margin: 25px 0;
+    }
+}
+@media (max-width: 575px) {
+    h1 {
+        font-size: 50px !important;
+    }
+}

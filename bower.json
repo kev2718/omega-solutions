@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kevin Kraus <bartez94@hotmail.de>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+    "MDBootstrap": "^4.4.5"
+  }
+}
